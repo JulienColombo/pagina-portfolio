@@ -2,7 +2,7 @@ function header (el) {
     var header = document.createElement("div");
     header.innerHTML = `<header class="header">
             
-    <img class="header__logo" src="../images/MARCE.png" alt="">
+    <img class="header__logo" src="../images/marce.png" alt="">
     <div class="header__menu-hamburguesa">
         <div class="header__menu-hamburguesa-open">
             <img src="./images/cruz.png" alt="" class="header__icono-menu-hamburguesa-cerrar">
