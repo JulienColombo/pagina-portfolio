@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  font-family: "Segoe UI", "Roboto";
+  background: black;
+}
+
+.intro__header {
+  background-image: url("../images/fondo-oficina.png");
+  background-position: center;
+  width: 100%;
+  height: 616px;
+}
+
+.intro__titulo {
+  height: 98px;
+  min-width: 314px;
+  padding: 200px 20px 250px 20px;
+  text-align: center;
+}
+
+.intro__titulo__saludo,
+.intro__titulo__nombre {
+  margin: 0;
+  font-weight: 700;
+  font-family: "Montserrat";
+  color: #fafafa;
+  text-align: center;
+}
+
+.intro__titulo__saludo {
+  font-size: 48px;
+}
+
+.intro__titulo__nombre {
+  margin-top: 11px;
+  font-size: 32px;
+}
+
+.presentacion {
+  height: 538px;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .presentacion {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 58px;
+  }
+}
+
+.presentacion__anime {
+  display: none;
+  height: 480px;
+  width: 298px;
+}
+
+@media (min-width: 769px) {
+  .presentacion__anime {
+    display: inherit;
+  }
+}
+
+.presentacion__texto {
+  display: grid;
+  justify-content: center;
+  padding: 50px 33px;
+  min-width: 312px;
+  max-width: 700px;
+  height: 193px;
+}
+
+@media (min-width: 769px) {
+  .presentacion__titulo-nombre {
+    text-align: left;
+  }
+}
+
+.presentacion__descripcion,
+.presentacion__descripcion-2 {
+  color: #fafafa;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 45px;
+}
+
+.presentacion__descripcion-2 {
+  display: none;
+}
+
+.mis-servicios {
+  background-color: #fafafa;
+  width: 100%;
+  height: 1375px;
+}
+
+@media (min-width: 769px) {
+  .mis-servicios {
+    height: 604px;
+  }
+}
+
+.contenedor-trabajos {
+  display: grid;
+  width: 271px;
+  text-align: center;
+  padding: 0px auto;
+  margin: 0px auto;
+  row-gap: 50px;
+}
+
+@media (min-width: 769px) {
+  .contenedor-trabajos {
+    display: flex;
+    margin: inherit;
+    justify-content: space-around;
+    width: auto;
+  }
+}
+
+.contenedor-trabajo {
+  width: 271px;
+  height: 349px;
+}
+
+.trabajo__titulo {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  padding: 55px 0px 5px 0px;
+}
+
+@media (min-width: 769px) {
+  .trabajo__titulo {
+    font-size: 48px;
+    margin-top: 0px;
+  }
+}
+
+.titulo-trabajo {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  margin: 7px 0px;
+}
+
+.descripcion-trabajo {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 7px 0px;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  width: 100%;
+  height: 498px;
+  color: #dbdbdb;
+}
+
+@media (min-width: 769px) {
+  .footer {
+    height: 348px;
+  }
+}

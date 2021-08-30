@@ -1,0 +1,83 @@
+.form-contenedor {
+  width: 100%;
+  color: #fafafa;
+  display: grid;
+}
+
+@media (min-width: 769px) {
+  .form-contenedor {
+    gap: 0px 80px;
+    padding: 0px 80px 80px 40px;
+  }
+}
+
+.form__subtitulo {
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 32px;
+  text-align: center;
+  margin: 48px 0px 16px 0px;
+  height: 55px;
+}
+
+@media (min-width: 769px) {
+  .form__subtitulo {
+    font-size: 48px;
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    padding-top: 120px;
+    margin-right: 40%;
+    text-align: center;
+  }
+}
+
+.form__label {
+  font-size: 13px;
+  font-family: "Poppins";
+  font-weight: 400;
+  align-self: end;
+}
+
+.form__input {
+  height: 45px;
+  max-width: 376px;
+}
+
+.form__input-mensaje {
+  height: 113px;
+  max-width: 376px;
+}
+
+.form__fieldset {
+  display: grid;
+  margin: 20px auto;
+  width: 335px;
+}
+
+@media (min-width: 769px) {
+  .form__fieldset {
+    justify-self: start;
+    min-width: 376px;
+    margin-left: 50%;
+  }
+}
+
+.form__boton {
+  display: block;
+  background-color: #2c2c2c;
+  color: #fafafa;
+  height: 45px;
+  margin: 60px auto;
+  border-radius: 4px;
+  border-style: none;
+  min-width: 335px;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .form__boton {
+    justify-self: start;
+    min-width: 376px;
+    margin-left: 50%;
+  }
+}

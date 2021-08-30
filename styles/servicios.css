@@ -1,0 +1,95 @@
+.titulo__contenedor--servicios {
+  background-color: black;
+  color: #ffffff;
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 769px) {
+  .titulo__contenedor--servicios {
+    font-size: 36px;
+    margin-top: 125px;
+    padding-bottom: 100px;
+  }
+}
+
+.titulo__servicios {
+  padding: 65px 31px;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  body {
+    background: linear-gradient(
+      180deg,
+      #09015f 29.35%,
+      rgba(156, 0, 210, 0.8) 78.73%
+    );
+  }
+}
+
+@media (min-width: 769px) {
+  .titulo__servicios {
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-bottom: 140px;
+    text-align: left;
+    background: linear-gradient(179deg, #09015f 29.35%, #af0069 78.73%);
+    animation: gradient 15s ease infinite;
+  }
+}
+
+.contenedor-trabajos-servicios {
+  display: grid;
+  width: 271px;
+  text-align: center;
+  padding: 0px auto;
+  margin: 0px auto;
+  row-gap: 50px;
+}
+
+@media (min-width: 769px) {
+  .contenedor-trabajos-servicios {
+    display: flex;
+    margin: inherit;
+    justify-content: space-around;
+    width: auto;
+  }
+}
+
+.contenedor-trabajo-servicios {
+  width: 271px;
+  height: 349px;
+  padding: 0px 5px 25px 5px;
+}
+
+.trabajo__titulo-servicios {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  padding: 55px 0px 5px 0px;
+}
+
+@media (min-width: 769px) {
+  .trabajo__titulo-servicios {
+    font-size: 48px;
+    margin-top: 0px;
+  }
+}
+
+.titulo-trabajo-servicios {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  margin: 7px 0px;
+}
+
+.descripcion-trabajo-servicios {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 7px 0px;
+}

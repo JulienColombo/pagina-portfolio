@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  padding: 34px 28px;
+  justify-content: space-between;
+}
+
+.header__contenedor-links {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .header__contenedor-links {
+    display: flex;
+    min-width: 451px;
+    height: 36px;
+    justify-content: space-evenly;
+  }
+}
+
+.header__redireccion {
+  color: #ffffff;
+  margin: 0px;
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header__icono-menu-hamburguesa {
+  display: grid;
+  width: 32px;
+  height: 36px;
+}
+
+@media (min-width: 769px) {
+  .header__icono-menu-hamburguesa {
+    display: none;
+  }
+}
+
+.header__barra-menu {
+  width: 36px;
+  height: 6px;
+  background-color: #fafafa;
+  border-radius: 1px;
+}
+
+.header__logo {
+  margin-top: -30px;
+  width: 100px;
+  height: 90px;
+}
+
+@media (min-width: 769px) {
+  .header__logo {
+    margin-top: -45px;
+    width: 150px;
+    height: 135px;
+  }
+}
+
+.header__menu-hamburguesa-open {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #161616;
+  color: #ffffff;
+  display: none;
+}
+
+.header__icono-menu-hamburguesa-cerrar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.header__contenedor-redirecciones {
+  text-align: center;
+  padding-top: 150px;
+  display: grid;
+}
+
+.header__redireccion-portfolio,
+.header__redireccion-servicios,
+.header__redireccion-contactos {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  margin: 25px;
+}

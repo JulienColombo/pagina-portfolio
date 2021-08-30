@@ -1,0 +1,46 @@
+.footer__contenedor {
+  margin: auto;
+  padding-top: 100px;
+  width: 197px;
+  height: 245px;
+  display: grid;
+}
+
+@media (min-width: 769px) {
+  .footer__contenedor {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+  }
+}
+
+.footer__redes {
+  align-self: center;
+  justify-self: center;
+}
+
+@media (min-width: 769px) {
+  .footer__redes {
+    justify-content: flex-end;
+  }
+}
+
+.footer__red-social {
+  display: flex;
+  margin: 21px auto;
+}
+
+@media (min-width: 769px) {
+  .footer__red-social {
+    justify-content: flex-end;
+  }
+}
+
+.footer__red-instagram,
+.footer__red-linkedin,
+.footer__red-github {
+  margin: 0px;
+  padding-right: 10px;
+}
