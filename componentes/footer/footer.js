@@ -2,7 +2,7 @@ function footer (el) {
     var contenedorFooter = document.createElement("div");
     contenedorFooter.innerHTML = ` <div class="footer__contenedor">
     <div class="footer__contenedor-logo">
-       <img class="footer__logo" src="./images/MARCE.png" alt="">
+       <img class="footer__logo" src="./images/marce.png" alt="">
     </div>
     <div class="footer__redes">
         <div class="footer__red-social">
